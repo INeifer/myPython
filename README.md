@@ -1,2 +1,0 @@
-# myPython
-First repos
