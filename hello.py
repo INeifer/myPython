@@ -1,13 +1,14 @@
 import matplotlib as mlp
 import matplotlib.pyplot as plt
 
-print("hello khadija")
+print("hello Pyton")
 name = "abcde"
 nbr = [1,2,3,4]
 
 for i in range(0,4):
     print(name[i],nbr[i], sep="_", end="\n")
 
+print("hello matplotlib")
 plt.xlabel("Zahlen")
 plt.ylabel("Quadratzahen")
 
@@ -17,3 +18,4 @@ plt.grid(True)
 
 #plt.show()
 plt.savefig('myplot.png')
+print("result saved in <myplot.png>")
